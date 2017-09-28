@@ -13,14 +13,13 @@ expect.addSnapshotSerializer(enzymeSerializer);
 
 jest.mock('classnames', () => {
   const data = (...props) => {
-    return props[props.length-1];
+    return props[props.length - 1];
   };
   return data;
 });
 
 describe('Glph Shallow Component', () => {
   test('should have empty span', () => {
-
     const result = shallow(<Glyph className={''} name={''} />);
     expect(result).toMatchSnapshot();
   });

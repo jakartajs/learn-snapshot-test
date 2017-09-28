@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchInput Shallow Component should have search input with empty search method 1`] = `
+<div>
+  <input
+    onChange={[Function]}
+    style={
+      Object {
+        "fontSize": 20,
+        "height": 30,
+        "width": 200,
+      }
+    }
+    value=""
+  />
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "fontSize": 20,
+        "height": 35,
+        "width": 40,
+      }
+    }
+  >
+    <Glyph
+      className=""
+      name="search"
+    />
+  </button>
+</div>
+`;
+
+exports[`SearchInput Shallow Component should have search input with empty search method 2`] = `
+<div>
+  <input
+    onChange={[Function]}
+    style={
+      Object {
+        "fontSize": 20,
+        "height": 30,
+        "width": 200,
+      }
+    }
+    value="123"
+  />
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "fontSize": 20,
+        "height": 35,
+        "width": 40,
+      }
+    }
+  >
+    <Glyph
+      className=""
+      name="search"
+    />
+  </button>
+</div>
+`;
