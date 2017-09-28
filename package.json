@@ -1,0 +1,26 @@
+{
+  "name": "snapshot",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "core-js": "^2.5.1",
+    "react": "^16.0.0",
+    "react-dom": "16"
+  },
+  "devDependencies": {
+    "classnames": "^2.2.5",
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.0.0",
+    "enzyme-to-json": "^3.0.1",
+    "prop-types": "^15.6.0",
+    "raf": "^3.3.2",
+    "react-scripts": "1.0.14",
+    "react-test-renderer": "16"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --setupTestFrameworkScriptFile=raf/polyfill",
+    "eject": "react-scripts eject"
+  }
+}
